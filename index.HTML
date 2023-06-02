@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>💓♥️Feliz Aniversario♥️💓</title>♥
+    <style>
+        body {
+            background-image: url("file:///C:/Users/&Hp/Pictures/naye/360_F_566677664_v26wP2RbxSGTeaYy6yVzQe6anQKDEYI2.jpg");
+            background-color: black;
+            color: black;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+        
+        .header {
+            font-size: 24px;
+            margin-top: 50px;
+        }
+        
+        .footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>""</h1>
+    </div>
+    
+    <div class="footer">
+        <img src="file:///C:/Users/&Hp/Pictures/naye/1000024664.jpg">
+    </div>
+    
+    <script>
+        function verificarDatos() {
+            var usuario = document.getElementById("usuario").value;
+            var contrasena = document.getElementById("contrasena").value;
+            
+            if (usuario === "Nayeli29" && contrasena === "13 de setiembre") {
+                window.location.href = "https://newmanreyes997.wixsite.com/nayeli?siteRevision=20";
+            } else {
+                alert("Usuario o contraseña incorrectos.");
+            }
+        }
+    </script>
+    
+    <div>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario">
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena">
+        <br>
+        <button onclick="verificarDatos()">Ingresar</button>
+    </div>
+</body>
+</html>
